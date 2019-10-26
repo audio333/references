@@ -2,36 +2,36 @@ link: https://raw.githubusercontent.com/okeeffed/cheat-sheets/master/wordpress-c
 
 **Resources**
 
-wphierarchy.com
+> [wphierarchy](wphierarchy.com)
 
 ![Template Hierarchy](https://developer.wordpress.org/files/2014/10/Screenshot-2019-01-23-00.20.04-1024x639.png)
 
 ## WORDPRESS THEME FILES
 
-* style.css – This is your theme’s stylesheet file.
+* `style.css` – This is your theme’s stylesheet file.
 
-* index.php – This is the main body template for your theme. Its job is to bring together all the information in the other theme files using template tags.
+* `index.php` – This is the main body template for your theme. Its job is to bring together all the information in the other theme files using template tags.
 
-* header.php – This file contains the header information that appears with the <head> section of your site, stuff like metadata and the link to your stylesheet.
+* `header.php` – This file contains the header information that appears with the <head> section of your site, stuff like metadata and the link to your stylesheet.
 
-* sidebar.php – Everything in you sidebar goes in this file, like widgets, categories, additional menus, search form, etc.
+* `sidebar.php` – Everything in you sidebar goes in this file, like widgets, categories, additional menus, search form, etc.
 
-* footer.php – This file contains your footer information, such as copyright details, widgets, and social icons.
+* `footer.php` – This file contains your footer information, such as copyright details, widgets, and social icons.
 
-* single.php – This file displays just one post.
+* `single.php` – This file displays just one post.
 
-* page.php – When you create a page on your site, this is the template responsible.
+* `page.php` – When you create a page on your site, this is the template responsible.
 
-* comments.php – This file is responsible for displaying comments.
+* `comments.php` – This file is responsible for displaying comments.
 
-* 404.php – When visitors try to visit a page on your site that doesn’t exist, this file will general an error page.
+* `404.php` – When visitors try to visit a page on your site that doesn’t exist, this file will general an error page.
 
-* functions.php – This file is where you can place special functions. We always recommend creating a child theme rather than edit this file directly.
+* `functions.php` – This file is where you can place special functions. We always recommend creating a child theme rather than edit this file directly.
 
-* archive.php – Display an archive with this file so visitors to your site can go way back when and read your Hello World! post.
+* `archive.php` – Display an archive with this file so visitors to your site can go way back when and read your Hello World! post.
 
-* search.php – Help your visitors search your site with this page.
-* searchform.php – Display a search form for your visitors with this template file.
+* `search.php` – Help your visitors search your site with this page.
+* `searchform.php` – Display a search form for your visitors with this template file.
 
 ## WORDPRESS DEFINE NEW THEME
 

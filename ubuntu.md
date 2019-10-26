@@ -2,61 +2,53 @@
 ## Packages @ apt
 * terminator
 * curl
-* nodejs
+* [nodejs](https://nodejs.org/en/) | [npm](https://raw.githubusercontent.com/audio333/references/master/npm.md)
    > Visit NodeJS Official Website
 * filezilla
-* git
+* [git](https://raw.githubusercontent.com/audio333/references/master/git.md)
    > .gitconfig
 * composer
 * apache2
-   ```shell
-   sudo /etc/init.d/apache2 restart
-   ```
+
+   `$ sudo /etc/init.d/apache2 restart`
 * php
-* mysql-server
-   ```shell
-   mysql -u root -p
-   ```
+* [mysql-server](https://raw.githubusercontent.com/audio333/references/master/mysql.md)
+
+   `$ mysql -u root -p`
 * phpmyadmin
    > /etc/php/7.2/apache2/php.ini
 
    > /etc/apache2/apache2.conf
 * gnome-tweak-tool
 * ppa-purge
-   ```shell
-   sudo ppa-purge ppa:<package-name>
-   ```
+
+   `$ sudo ppa-purge ppa:<package-name>`
 * ulauncher
-   ```shell
-   sudo add-apt-repository ppa:agornostal/ulauncher
-   ```
+
+   `$ sudo add-apt-repository ppa:agornostal/ulauncher`
 * virtualbox
-* vagrant
-   * up
-   * ssh
-   * halt
-   * provision
-   * box list
-   * box add laravel/homestead
+* [vagrant](https://raw.githubusercontent.com/audio333/references/master/vagrant.md)
+   * `$ vagrant up`
+   * `$ vagrant ssh`
+   * `$ vagrant halt`
+   * `$ vagrant provision`
+   * `$ vagrant box list`
+   * `$ vagrant box add laravel/homestead`
    > homestead.yaml
 * autokey-gtk
 * lm-sensors
-   ```shell
-   sensors
-   ```
-* vim
-   ```shell
-   vimtutor
-   ```
+
+   `$ sensors`
+* [vim](https://raw.githubusercontent.com/audio333/references/master/vim.md)
+
+   `$ vimtutor`
    > ~/.vimrc
 * neovim
-   ```shell
-   nvim
-   ```
+
+   `$ nvim`
 * net-tools
-   ```shell
-   ifconfig
-   ```
+
+   `$ ifconfig`
 * droidmote
    > /usr/bin/droidmote
 
