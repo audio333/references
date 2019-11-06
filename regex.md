@@ -1,10 +1,22 @@
-https://gist.githubusercontent.com/vitorbritto/9ff58ef998100b8f19a0/raw/67a155d0472d31b69d2ac7521fe1459188a960a2/regex.md
+## Table of Contents
+* [Basic Syntax](#basic-syntax)
+* [Position Matching](#position-matching)
+* [Character Classes](#character-classes)
+* [Special Characters](#special-characters)
+* [Groups and Ranges](#groups-and-ranges)
+* [Quantifiers](#quantifiers)
+* [Escape Sequences](#escape-sequences)
+* [String Replacement](#string-replacement)
+* [Assertions](#assertions)
+* [POSIX](#posix)
+* [Pattern Modifiers](#pattern-modifiers)
 
+link: https://gist.githubusercontent.com/vitorbritto/9ff58ef998100b8f19a0/raw/67a155d0472d31b69d2ac7521fe1459188a960a2/regex.md
 
 # Regular Expressions
 
-
 ## Basic Syntax
+[(Back to Top)](#table-of-contents)
 
 - `/.../`: Start and end regex delimiters
 - `|`: Alternation
@@ -12,6 +24,7 @@ https://gist.githubusercontent.com/vitorbritto/9ff58ef998100b8f19a0/raw/67a155d0
 
 
 ## Position Matching
+[(Back to Top)](#table-of-contents)
 
 - `^`: Start of string or start of line in multi-line mode
 - `\A`: Start of string
@@ -24,6 +37,7 @@ https://gist.githubusercontent.com/vitorbritto/9ff58ef998100b8f19a0/raw/67a155d0
 
 
 ## Character Classes
+[(Back to Top)](#table-of-contents)
 
 - `\s`: Whitespace
 - `\S`: Not whitespace
@@ -36,6 +50,7 @@ https://gist.githubusercontent.com/vitorbritto/9ff58ef998100b8f19a0/raw/67a155d0
 
 
 ## Special Characters
+[(Back to Top)](#table-of-contents)
 
 - `\n`: Newline
 - `\r`: Carriage return
@@ -47,6 +62,7 @@ https://gist.githubusercontent.com/vitorbritto/9ff58ef998100b8f19a0/raw/67a155d0
 
 
 ## Groups and Ranges
+[(Back to Top)](#table-of-contents)
 
 - `.`: Any character except newline (\n)
 - `(a|b)`: a or b
@@ -62,6 +78,7 @@ https://gist.githubusercontent.com/vitorbritto/9ff58ef998100b8f19a0/raw/67a155d0
 
 
 ## Quantifiers
+[(Back to Top)](#table-of-contents)
 
 - `*`: 0 or more
 - `+`: 1 or more
@@ -74,6 +91,7 @@ https://gist.githubusercontent.com/vitorbritto/9ff58ef998100b8f19a0/raw/67a155d0
 
 
 ## Escape Sequences
+[(Back to Top)](#table-of-contents)
 
 - `\`:Escape following character. Used to escape any of the following metacharacters: {}[]()^$.|*+?\.
 - `\Q`: Begin literal sequence
@@ -81,6 +99,7 @@ https://gist.githubusercontent.com/vitorbritto/9ff58ef998100b8f19a0/raw/67a155d0
 
 
 ## String Replacement
+[(Back to Top)](#table-of-contents)
 
 - `$1`: 1st group
 - `$2`: 2nd group
@@ -94,6 +113,7 @@ https://gist.githubusercontent.com/vitorbritto/9ff58ef998100b8f19a0/raw/67a155d0
 
 
 ## Assertions
+[(Back to Top)](#table-of-contents)
 
 - `?=`: Lookahead assertion
 - `?!`: Negative lookahead
@@ -106,6 +126,7 @@ https://gist.githubusercontent.com/vitorbritto/9ff58ef998100b8f19a0/raw/67a155d0
 
 
 ## POSIX
+[(Back to Top)](#table-of-contents)
 
 - `[:upper:]`: Uppercase letters
 - `[:lower:]`: Lowercase letters
@@ -123,6 +144,7 @@ https://gist.githubusercontent.com/vitorbritto/9ff58ef998100b8f19a0/raw/67a155d0
 
 
 ## Pattern Modifiers
+[(Back to Top)](#table-of-contents)
 
 - `g`: Global match
 - `i`: Case-i­nse­nsitive

@@ -1,11 +1,52 @@
+# [Sass](http://sass-lang.com/)
+
+## Table of Contents
+* [My Gist](#my-gist)
+
+---
+1. [Watching](#watching)
+1. [Comments](#comments)
+1. [Imports](#imports)
+1. [Variables](#variables)
+1. [Nesting](#nesting)
+1. [Parent Selectors](#parent-selectors)
+1. [Interpolation](#interpolation)
+1. [Concatenation](#concatenation)
+1. [Mixins](#mixins)
+1. [Extend](#extend)
+1. [Control directives](#control-directives)
+1. [Function directives](#function-directives)
+1. [List functions](#list-functions)
+1. [Color functions](#color-functions)
+1. [Number functions](#number-functions)
+1. [Media queries](#media-queries)
+1. [Some helpful resources](#some-helpful-resources)
+
+---
+1. [RGB Functions](#rgb-functions)
+1. [HSL Functions](#hsl-functions)
+1. [Opacity Functions](#opacity-functions)
+1. [Other Color Functions](#other-color-functions)
+1. [List Functions](#list-functions)
+1. [Map Functions](#map-functions)
+1. [Selector Functions](#selector-functions)
+1. [String Functions](#string-functions)
+1. [Number Functions](#number-functions)
+1. [Introspection Functions](#introspection-functions)
+1. [Miscel­laneous Functions](#miscellaneous-functions)
+
+
+---
+## My Gist
+[(Back to Top)](#table-of-contents)
+* [Functions](https://gist.github.com/audio333/84765737b0a1dc0a13b8afd2d058eb96)
+* [Mixins](https://gist.github.com/audio333/5c1e5ef202bdc84867ed5ef0fe799b7d)
+
+---
 link: https://raw.githubusercontent.com/miguelmota/sass-cheatsheet/master/README.md
 
-
-# Sass Cheatsheet
-
-[http://sass-lang.com/](http://sass-lang.com/)
-
-### Watching
+## Watching
+[(Back to Top)](#table-of-contents)
 
 ```bash
 sass --watch sass:css
@@ -13,7 +54,8 @@ sass --watch sass:css
 
 [source](http://sass-lang.com/documentation/file.SASS_REFERENCE.html#using_sass)
 
-### Comments
+## Comments
+[(Back to Top)](#table-of-contents)
 
 ```css
 // I will not show when compiled
@@ -23,7 +65,8 @@ sass --watch sass:css
 
 [source](http://sass-lang.com/documentation/file.SASS_REFERENCE.html#comments)
 
-### Imports
+## Imports
+[(Back to Top)](#table-of-contents)
 
 ```css
 @import 'foo';
@@ -31,7 +74,8 @@ sass --watch sass:css
 
 [source](http://sass-lang.com/documentation/file.SASS_REFERENCE.html#import)
 
-### Variables
+## Variables
+[(Back to Top)](#table-of-contents)
 
 ```css
 $foo: #000 !default;
@@ -40,7 +84,8 @@ $bar: baz qux quux corge;
 
 [source](http://sass-lang.com/documentation/file.SASS_REFERENCE.html#variables_)
 
-### Nesting
+## Nesting
+[(Back to Top)](#table-of-contents)
 
 Selector nesting
 
@@ -66,7 +111,8 @@ Property nesting
 
 [source](http://sass-lang.com/documentation/file.SASS_REFERENCE.html#nested_properties)
 
-### Parent Selectors
+## Parent Selectors
+[(Back to Top)](#table-of-contents)
 
 ```css
 a {
@@ -86,7 +132,8 @@ a {
 
 [source](http://sass-lang.com/documentation/file.SASS_REFERENCE.html#referencing_parent_selectors_)
 
-### Interpolation
+## Interpolation
+[(Back to Top)](#table-of-contents)
 
 ```css
 $foo: bar;
@@ -99,7 +146,8 @@ $foo: bar;
 [source](http://sass-lang.com/documentation/file.SASS_REFERENCE.html#interpolation_)
 
 
-### Concatenation
+## Concatenation
+[(Back to Top)](#table-of-contents)
 
 ```css
 $foo: 'serif';
@@ -109,7 +157,8 @@ $foo: 'serif';
 }
 ```
 
-### Mixins
+## Mixins
+[(Back to Top)](#table-of-contents)
 
 ```css
 @mixin foo($bar, $baz: false) {
@@ -139,7 +188,8 @@ Variable arguments
 
 [source](http://sass-lang.com/documentation/file.SASS_REFERENCE.html#defining_a_mixin)
 
-### Extend
+## Extend
+[(Back to Top)](#table-of-contents)
 
 ```css
 %foo {
@@ -160,7 +210,8 @@ Variable arguments
 [source](http://sass-lang.com/documentation/file.SASS_REFERENCE.html#extend)
 
 
-### Control directives
+## Control directives
+[(Back to Top)](#table-of-contents)
 
 #### if, if else, else
 
@@ -235,7 +286,8 @@ $i: 1;
 [source](http://sass-lang.com/documentation/file.SASS_REFERENCE.html#control_directives)
 
 
-### Function directives
+## Function directives
+[(Back to Top)](#table-of-contents)
 
 ```css
 @function foo($bar, $baz) {
@@ -249,7 +301,8 @@ $i: 1;
 
 [source](http://sass-lang.com/documentation/file.SASS_REFERENCE.html#functions)
 
-### List functions
+## List functions
+[(Back to Top)](#table-of-contents)
 
 ```css
 $foo: bar baz qux quux;
@@ -276,7 +329,8 @@ $style: zip($names, $colors); // [foo blue] [bar green]
  }
 ```
 
-### Color functions
+## Color functions
+[(Back to Top)](#table-of-contents)
 
 ```css
 $foo: #ff0000;
@@ -297,7 +351,8 @@ scale_color($foo, [$red], [$green], [$blue], [$saturation], [$lightness], [$alph
 
 [source](http://sass-lang.com/documentation/Sass/Script/Functions.html#rgb_functions)
 
-### Number functions
+## Number functions
+[(Back to Top)](#table-of-contents)
 
 ```css
 $foo: 1.4;
@@ -314,7 +369,8 @@ max($bar...) // 4.5
 
 [source](http://sass-lang.com/documentation/Sass/Script/Functions.html#number_functions)
 
-### Media queries
+## Media queries
+[(Back to Top)](#table-of-contents)
 
 ```css
 .foo {
@@ -348,7 +404,8 @@ Using a mixin
 
 [source](http://sass-lang.com/documentation/file.SASS_REFERENCE.html#media)
 
-#### Some helpful resources
+## Some helpful resources
+[(Back to Top)](#table-of-contents)
 
 - [Sass reference](http://sass-lang.com/documentation/file.SASS_REFERENCE.html)
 - [The Sass Way](http://thesassway.com/)
@@ -356,32 +413,18 @@ Using a mixin
 - [Scalable and Modular Architecture for CSS](http://smacss.com/)
 
 
-### License
+#### License
 
 Released under the MIT License.
 
 
 ---
-___
-
 
 link: https://gist.github.com/AllThingsSmitty/3bcc79da563df756be46
 
-##Sass Functions Cheat Sheet
 
-1. [RGB Functions](#rgb-functions)
-1. [HSL Functions](#hsl-functions)
-1. [Opacity Functions](#opacity-functions)
-1. [Other Color Functions](#other-color-functions)
-1. [List Functions](#list-functions)
-1. [Map Functions](#map-functions)
-1. [Selector Functions](#selector-functions)
-1. [String Functions](#string-functions)
-1. [Number Functions](#number-functions)
-1. [Introspection Functions](#introspection-functions)
-1. [Miscel­laneous Functions](#miscellaneous-functions)
-
-####RGB Functions
+## RGB Functions
+[(Back to Top)](#table-of-contents)
 
 [**`rgb(­$red, $green, $blue)`**](http://sass-lang.com/documentation/Sass/Script/Functions.html#rgb-instance_method)
 Creates a color from red, green, and blue values.
@@ -401,8 +444,8 @@ Gets the blue component of a color.
 **`mix(­$co­lor1, $color2, [$weig­ht])`**
 Mixes two colors together.
 
-==========
-####HSL Functions
+## HSL Functions
+[(Back to Top)](#table-of-contents)
 
 **`hsl(­$hue, $satur­ation, $light­ness)`**
 Creates a color from hue, satura­tion, and lightness values.
@@ -443,8 +486,8 @@ Returns the complement of a color.
 **`inve­rt(­$co­lor)`**
 Returns the inverse of a color.
 
-==========
-####Opacity Functions
+## Opacity Functions
+[(Back to Top)](#table-of-contents)
 
 **`alph­a($­color) / opacit­y($­col­or)`**
 Gets the alpha component (opacity) of a color.
@@ -458,23 +501,23 @@ Makes a color more opaque.
 **`tran­spa­ren­tiz­e($­color, $amount) / fade-o­ut(­$color, $amount)`**
 Makes a color more transp­arent.
 
-==========
-####Other Color Functions
+## Other Color Functions
+[(Back to Top)](#table-of-contents)
 
 Visit [Sass Functions](http://sass-lang.com/documentation/Sass/Script/Functions.html).
 
-==========
-####List Functions
+## List Functions
+[(Back to Top)](#table-of-contents)
 
 Visit [Sass Functions](http://sass-lang.com/documentation/Sass/Script/Functions.html).
 
-==========
-####Map Functions
+## Map Functions
+[(Back to Top)](#table-of-contents)
 
 Visit [Sass Functions](http://sass-lang.com/documentation/Sass/Script/Functions.html).
 
-==========
-####Selector Functions
+## Selector Functions
+[(Back to Top)](#table-of-contents)
 
 **`sele­cto­r-n­est­($s­ele­cto­rs...)`**
 Nests selector beneath one another like they would be nested in the styles­heet.
@@ -484,8 +527,8 @@ Replaces `$original` with `$repla­cement` within `$selector`.
 
 More at [Sass Functions](http://sass-lang.com/documentation/Sass/Script/Functions.html).
 
-==========
-####String Functions
+## String Functions
+[(Back to Top)](#table-of-contents)
 
 **`unqu­ote­($s­tri­ng)`**
 Removes quotes from a string.
@@ -498,8 +541,8 @@ Returns the number of characters in a string.
 
 More at [Sass Functions](http://sass-lang.com/documentation/Sass/Script/Functions.html).
 
-==========
-####Number Functions
+## Number Functions
+[(Back to Top)](#table-of-contents)
 
 **`perc­ent­age­($n­umb­er)`**
 Converts a unitless number to a percen­tage.
@@ -525,8 +568,8 @@ Finds the maximum of several numbers.
 **`rand­om(­[$l­imi­t])`**
 Returns a random number.
 
-==========
-####Introspection Functions
+## Introspection Functions
+[(Back to Top)](#table-of-contents)
 
 **`feat­ure­-ex­ist­s($­fea­ture)`**
 Returns whether a feature exists in the current Sass runtime.
@@ -561,8 +604,8 @@ Returns whether two numbers can be added, subtra­cted, or compared.
 **`call­($name, $args…)`**
 Dynami­cally calls a Sass function.
 
-==========
-####Miscel­laneous Functions
+## Miscel­laneous Functions
+[(Back to Top)](#table-of-contents)
 
 **`if($­con­dition, $if-true, $if-fa­lse)`**
 Returns one of two values, depending on whether or not `$condition` is true.

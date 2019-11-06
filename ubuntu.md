@@ -1,5 +1,6 @@
 # Ubuntu Web Development Environment
-## Packages @ apt
+
+## APT
 * terminator
 * curl
 * [nodejs](https://nodejs.org/en/) | [npm](https://raw.githubusercontent.com/audio333/references/master/npm.md)
@@ -52,8 +53,9 @@
 * droidmote
    > /usr/bin/droidmote
 
-## Software installed @ Ubuntu Software (GUI)
+## Ubuntu Software (GUI)
 * chrome
 * sublime text
 * synaptic package manager
 * visual studio code
+

@@ -1,12 +1,23 @@
+## Table of Contents
+* [THEME FILES](#theme-files)
+* [DEFINE NEW THEME](#define-new-theme)
+* [TEMPLATE INCLUDE TAGS](#template-include-tags)
+* [HEADER/BLOG INFO TAGS](#header/blog-info-tags)
+* [TEMPLATE TAGS](#template-tags)
+* [THE LOOPS](#the-loops)
+
 link: https://raw.githubusercontent.com/okeeffed/cheat-sheets/master/wordpress-cheat-sheet.php
 
 **Resources**
 
-> [wphierarchy](wphierarchy.com)
+* [My Boilerplate](https://gist.github.com/audio333/c1f7eeb299d1d995cfa451a11db3a8fd)
+
+* [wphierarchy](wphierarchy.com)
 
 ![Template Hierarchy](https://developer.wordpress.org/files/2014/10/Screenshot-2019-01-23-00.20.04-1024x639.png)
 
-## WORDPRESS THEME FILES
+## THEME FILES
+[(Back to Top)](#table-of-contents)
 
 * `style.css` – This is your theme’s stylesheet file.
 
@@ -33,7 +44,8 @@ link: https://raw.githubusercontent.com/okeeffed/cheat-sheets/master/wordpress-c
 * `search.php` – Help your visitors search your site with this page.
 * `searchform.php` – Display a search form for your visitors with this template file.
 
-## WORDPRESS DEFINE NEW THEME
+## DEFINE NEW THEME
+[(Back to Top)](#table-of-contents)
 
 This information goes at the top of your stylesheet.css file.
 
@@ -53,7 +65,8 @@ This theme, like WordPress, is licensed under the GPL.
 Use it to make something cool, have fun, and share what you've learned with others.
 ```
 
-## WORDPRESS TEMPLATE INCLUDE TAGS
+## TEMPLATE INCLUDE TAGS
+[(Back to Top)](#table-of-contents)
 
 ```php
 <?php get_header(); ?> /* Includes the header.php file */
@@ -62,7 +75,8 @@ Use it to make something cool, have fun, and share what you've learned with othe
 <?php comments_template(); ?> /* Includes your comments */
 ```
 
-## WORDPRESS HEADER/BLOG INFO TAGS
+## HEADER/BLOG INFO TAGS
+[(Back to Top)](#table-of-contents)
 
 These are functions you’ll find in your theme’s header.php file, though you’ll also find them in other theme files:
 
@@ -82,7 +96,8 @@ These are functions you’ll find in your theme’s header.php file, though you�
 <?php wp_title(); ?> /* Title of a specific page */
 ```
 
-## WORDPRESS TEMPLATE TAGS
+## TEMPLATE TAGS
+[(Back to Top)](#table-of-contents)
 
 These tags can be used across all of your template files, such as index.php or page.php, making it easy to display specific information anywhere you want on your site:
 
@@ -106,7 +121,8 @@ These tags can be used across all of your template files, such as index.php or p
 <?php wp_loginout(); ?>  /* Displays login/logout link only to registered users  */
 ```
 
-## WORDPRESS THE LOOPS
+## THE LOOPS
+[(Back to Top)](#table-of-contents)
 
 The Loop is the default mechanism in WordPress for displaying all of your posts. Exactly how many posts are retrieved is determined by the number of posts you’ve chosen to display in the “Reading” settings in your WordPress dashboard.
 

@@ -1,5 +1,118 @@
+link: https://gist.githubusercontent.com/bradtraversy/09177818de0f43a6e74e2cd05d1fe596/raw/26f908bfad766f7c5156de7d6d4d1c0a510e1a1a/npmcrashcourse.txt
+
+### GET VERSION
+```shell
+npm -v (or --version)
+```
+
+### GET HELP
+```shell
+npm help
+npm
+```
+
+### CREATE PACKAGE.JSON
+```shell
+npm init
+npm init -y (or --yes)
+```
+
+### SET DEFAULTS
+```shell
+npm config set init-author-name "YOUR NAME"
+npm set init-license "MIT"
+```
+
+### GET DEFAULTS
+```shell
+npm config get init-author-name
+npm get init-license
+```
+
+### REMOVE DEFAULTS
+```shell
+npm config delete init-author-name
+npm delete init-license
+```
+
+### INSTALLING LOCAL PACKAGES
+```shell
+npm install lodash --save (or npm install --save lodash)
+npm install moment --save
+npm install gulp gulp-sass --save-dev
+```
+
+### MOVE TO ANOTHER FOLDER
+```shell
+npm install
+npm install --production
+```
+
+### REMOVING MODULES
+```shell
+npm uninstall gulp-sass --save-dev
+npm remove gulp --save-dev
+```
+
+### INSTALL CERTAIN VERSIONS
+```shell
+npm install lodash@4.17.3 --save
+```
+
+### UPDATE
+```shell
+npm update lodash --save
+```
+
+### INSTALL GLOBAL MODULE
+```shell
+npm install -g nodemon
+npm install -g live-server
+```
+
+### RUN NODEMON
+```shell
+nodemon
+```
+
+### FIND ROOT FOLDER
+```shell
+npm root -g
+```
+
+### REMOVE GLOBAL PACKAGES
+```shell
+npm remove -g nodemon
+```
+
+### LISTING PACKAGES
+```shell
+npm list
+npm list --depth 0
+npm list --depth 1
+```
+
+### INSTALL LIVE-SERVER LOCALLY
+```shell
+npm install live-server --save-dev
+```
+
+### NPM SCRIPT
+```json
+"scripts": {
+    "start": "node index.js",
+    "dev": "live-server"
+  },
+```
+
+---
 link: https://raw.githubusercontent.com/joshbedo/npm-cheatsheet/master/README.md
 
+## Contents
+1. [Commands](#commands)
+2. [Packages](#packages)
+
+## Commands
 
 * quick help on <cmd>
 
@@ -142,3 +255,27 @@ link: https://raw.githubusercontent.com/joshbedo/npm-cheatsheet/master/README.md
 * display npm username
 
    `npm whoami`
+
+
+## Packages
+* axios
+* bootstrap
+* bootstrap-sass
+* browser sync
+* font-awesome
+* jquery
+* laravel-mix
+* gulp
+   * gulp-sass
+   * gulp-notify
+   * gulp-plumber
+   * gulp-concat
+   * gulp-imagemin
+   * gulp-notify
+   * gulp-sourcemaps
+   * gulp-uglify
+   * gulp-uglifycss
+* node-sass
+* sass
+* sass-loader
+* vue

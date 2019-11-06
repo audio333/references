@@ -1,6 +1,20 @@
+## Table of Contents
+1. [Install Git](#install-git)
+1. [Configure tooling](#configure-tooling)
+1. [Create repositories](#create-repositories)
+1. [Make changes](#make-changes)
+1. [Group changes](#group-changes)
+1. [Refactor file names](#refactor-file-names)
+1. [Suppress tracking](#suppress-tracking)
+1. [Save fragments](#save-fragments)
+1. [Review history](#review-history)
+1. [Redo commits](#redo-commits)
+1. [Synchronize changes](#synchronize-changes)
+
 link: https://github.com/github/training-kit/blob/master/downloads/github-git-cheat-sheet.md
 
 ## Install Git
+[(Back to Top)](#table-of-contents)\
 GitHub provides desktop clients that include a graphical user interface for the most common repository actions and an automatically updating command line edition of Git for advanced scenarios.
 
 ### GitHub Desktop
@@ -12,6 +26,7 @@ Git distributions for Linux and POSIX systems are available on the official Git 
 http://git-scm.com
 
 ## Configure tooling
+[(Back to Top)](#table-of-contents)\
 Configure user information for all local repositories
 
 ```$ git config --global user.name "[name]"```
@@ -25,6 +40,7 @@ Sets the email you want attached to your commit transactions
 
 
 ## Create repositories
+[(Back to Top)](#table-of-contents)\
 Start a new repository or obtain one from an existing URL
 
 
@@ -39,6 +55,7 @@ Downloads a project and its entire version history
 
 
 ## Make changes
+[(Back to Top)](#table-of-contents)\
 Review edits and craft a commit transaction
 
 
@@ -72,6 +89,7 @@ Unstages the file, but preserves its contents
 Records file snapshots permanently in version history
 
 ## Group changes
+[(Back to Top)](#table-of-contents)\
 Name a series of commits and combine completed efforts
 
 
@@ -100,6 +118,7 @@ Combines the specified branch’s history into the current branch
 Deletes the specified branch
 
 ## Refactor file names
+[(Back to Top)](#table-of-contents)\
 Relocate and remove versioned files
 
 
@@ -118,6 +137,7 @@ Removes the file from version control but preserves the file locally
 Changes the file name and prepare it for commit
 
 ## Suppress tracking
+[(Back to Top)](#table-of-contents)\
 Exclude temporary files and paths
 
 ```
@@ -134,6 +154,7 @@ A text file named `.gitignore` suppresses accidental versioning of files and pat
 Lists all ignored files in this project
 
 ## Save fragments
+[(Back to Top)](#table-of-contents)\
 Shelve and restore incomplete changes
 
 
@@ -157,6 +178,7 @@ Lists all stashed changesets
 Discards the most recently stashed changeset
 
 ## Review history
+[(Back to Top)](#table-of-contents)\
 Browse and inspect the evolution of project files
 
 
@@ -180,6 +202,7 @@ Shows content differences between two branches
 Outputs metadata and content changes of the specified commit
 
 ## Redo commits
+[(Back to Top)](#table-of-contents)\
 Erase mistakes and craft replacement history
 
 
@@ -193,6 +216,7 @@ Undoes all commits after `[commit]`, preserving changes locally
 Discards all history and changes back to the specified commit
 
 ## Synchronize changes
+[(Back to Top)](#table-of-contents)\
 Register a remote (URL) and exchange repository history
 
 
@@ -217,7 +241,6 @@ Downloads bookmark history and incorporates changes
 
 
 ---
-___
 
 link: https://raw.githubusercontent.com/jakubpawlowicz/git-cheat-sheet/master/README.md
 

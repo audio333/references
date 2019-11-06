@@ -1,7 +1,80 @@
+## Table of Contents
+1. [Comments](#comments)
+1. [Data types](#data-types)
+1. [Variables](#variables)
+   * [ES6 var, let and const](#es6-var,-let-and-const)
+1. [Strings](#strings)
+   * [Basics](#basics)
+   * [Escape sequences](#escape-sequences)
+   * [The length of a string](#the-length-of-a-string)
+   * [Split and Join](#split-and-join)
+   * [Index of a String](#index-of-a-string)
+   * [ES6 Template Literals](#es6-template-literals)
+1. [Arrays](#arrays)
+   * [Index of an array](#index-of-an-array)
+   * [Manipulate arrays with reverse, push, pop, shift and unshift](#manipulate-arrays-with-reverse,-push,-pop,-shift-and-unshift)
+   * [Remove any element with splice](#remove-any-element-with-splice)
+   * [Copy an array with slice](#copy-an-array-with-slice)
+   * [indexOf](#indexof)
+   * [Accessing Nested Arrays](#accessing-nested-arrays)
+   * [ES6 Includes to Determine if an Array Contains an Element](#es6-includes-to-determine-if-an-array-contains-an-element)
+   * [ES6 The Spread Operator](#es6-the-spread-operator)
+   * [ES6 Destructuring Arrays to Assign Variables](#es6-destructuring-arrays-to-assign-variables)
+1. [JavaScript Objects](#javascript-objects)
+   * [Accessing Objects Properties](#accessing-objects-properties)
+   * [Modifying Objects Properties](#modifying-objects-properties)
+   * [Objects for Lookups](#objects-for-lookups)
+   * [Test Object Properties](#test-object-properties)
+   * [Accessing Nested Objects](#accessing-nested-objects)
+   * [ES6 Destructuring Variables from Objects](#es6-destructuring-variables-from-objects)
+   * [ES6 Destructuring to Pass an Object as a Function's Parameters](#es6-destructuring-to-pass-an-object-as-a-function's-parameters)
+   * [ES6 Object Literal Declarations Using Simple Fields](#es6-object-literal-declarations-using-simple-fields)
+1. [Booleans](#booleans)
+1. [If Else Statements](#if-else-statements)
+   * [Else Statement](#else-statement)
+   * [Else if statement](#else-if-statement)
+   * [Conditional Ternary Operator](#conditional-ternary-operator)
+   * [Multiple Conditional Ternary Operators](#multiple-conditional-ternary-operators)
+1. [Switch Statement](#switch-statement)
+   * [Default Switch Statement](#default-switch-statement)
+   * [Multiple Options with Switch Statement](#multiple-options-with-switch-statement)
+1. [Comparison Operators](#comparison-operators)
+1. [While Loops](#while-loops)
+   * [Do...While Loops](#do...while-loops)
+1. [For Loops](#for-loops)
+   * [ES6 for-of](#es6-for--of)
+1. [Functions](#functions)
+   * [Function Arguments](#function-arguments)
+   * [Return Statement](#return-statement)
+   * [Immediately Invoked Function Expression or IIFE](#immediately-invoked-function-expression-or-iife)
+   * [ES6 Arrow Functions](#es6-arrow-functions)
+   * [ES6 Higher Order Arrow Functions](#es6-higher-order-arrow-functions)
+   * [ES6 Rest Operator with Function Parameters](#es6-rest-operator-with-function-parameters)
+   * [ES6 Declarative Functions within Objects](#es6-declarative-functions-within-objects)
+1. [Regular Expressions](#regular-expressions)
+   * [Regex Methods](#regex-methods)
+   * [Examples](#examples)
+1. [Object Oriented Programming](#object-oriented-programming)
+   * [Constructors and New Objects](#constructors-and-new-objects)
+   * [Inheritance](#inheritance)
+   * [Mixins](#mixins)
+   * [Closures to Protect Properties](#closures-to-protect-properties)
+   * [Modules](#modules)
+1. [ES6 Object Oriented Programming](#es6-object-oriented-programming)
+   * [ES6 Classes](#es6-classes)
+   * [ES6 getters and setters](#es6-getters-and-setters)
+   * [ES6 Statics Methods](#es6-statics-methods)
+   * [ES6 Inheritance](#es6-inheritance)
+1. [Functional Programming](#functional-programming)
+   * [Map](#map)
+1. [ES6 import and export](#es6-import-and-export)
+   * [import](#import)
+   * [export](#export)
+
 link: https://raw.githubusercontent.com/wilfredinni/javascript-cheatsheet/master/README.md
 
-
 ## Comments
+[(Back to Top)](#table-of-contents)
 
 ```javascript
 // This is an in-line comment.
@@ -11,6 +84,7 @@ multi-line comment */
 ```
 
 ## Data types
+[(Back to Top)](#table-of-contents)
 
 JavaScript provides seven different data types:
 
@@ -25,6 +99,7 @@ JavaScript provides seven different data types:
 | `symbol`    | Represents a unique identifier.                                       |
 
 ## Variables
+[(Back to Top)](#table-of-contents)
 
 ```javascript
 // declare a variable
@@ -74,6 +149,7 @@ console.log(obj);
 ```
 
 ## Strings
+[(Back to Top)](#table-of-contents)
 
 ### Basics
 
@@ -160,6 +236,7 @@ console.log(greeting);
 ```
 
 ## Arrays
+[(Back to Top)](#table-of-contents)
 
 ```javascript
 var sandwich = ["peanut butter", "jelly", "bread"][
@@ -325,6 +402,7 @@ console.log(arr); // [3, 4, 5, 7]
 ```
 
 ## JavaScript Objects
+[(Back to Top)](#table-of-contents)
 
 ```javascript
 var cat = {
@@ -555,6 +633,7 @@ const getMousePosition = (x, y) => ({ x, y });
 ```
 
 ## Booleans
+[(Back to Top)](#table-of-contents)
 
 Booleans may only be one of two values: true or false. They are basically little on-off switches,
 where true is "on" and false is "off". These two states are mutually exclusive.
@@ -565,6 +644,7 @@ false;
 ```
 
 ## If Else Statements
+[(Back to Top)](#table-of-contents)
 
 ```javascript
 if (condition is true) {
@@ -594,7 +674,7 @@ if (num > 15) {
 }
 ```
 
-### Conditional (Ternary) Operator
+### Conditional Ternary Operator
 
 ```javascript
 // this if statement...
@@ -612,7 +692,7 @@ function findGreater(a, b) {
 }
 ```
 
-### Multiple Conditional (Ternary) Operators
+### Multiple Conditional Ternary Operators
 
 ```javascript
 // this if statement...
@@ -637,6 +717,7 @@ function findGreaterOrEqual(a, b) {
 ```
 
 ## Switch Statement
+[(Back to Top)](#table-of-contents)
 
 ```javascript
 switch(num) {
@@ -685,6 +766,7 @@ switch (val) {
 ```
 
 ## Comparison Operators
+[(Back to Top)](#table-of-contents)
 
 | Operator | Meaning               |
 | -------- | --------------------- |
@@ -700,6 +782,7 @@ switch (val) {
 | `||`     | Or                    |
 
 ## While Loops
+[(Back to Top)](#table-of-contents)
 
 ```javascript
 var ourArray = [];
@@ -722,6 +805,7 @@ do {
 ```
 
 ## For Loops
+[(Back to Top)](#table-of-contents)
 
 ```javascript
 var ourArray = [];
@@ -761,6 +845,7 @@ for (let value of myArray) {
 ```
 
 ## Functions
+[(Back to Top)](#table-of-contents)
 
 ```javascript
 function functionName() {
@@ -863,6 +948,7 @@ const person = {
 ```
 
 ## Regular Expressions
+[(Back to Top)](#table-of-contents)
 
 | Character  | Description                                                                                        |
 | ---------- | -------------------------------------------------------------------------------------------------- |
@@ -1006,6 +1092,7 @@ let result = hello.replace(wsRegex, '$1'); // returns 'Hello, World!'
 ```
 
 ## Object Oriented Programming
+[(Back to Top)](#table-of-contents)
 
 ```javascript
 let duck = {
@@ -1211,6 +1298,7 @@ goodBoy.sing() // Singing to an awesome tune
 ```
 
 ## ES6 Object Oriented Programming
+[(Back to Top)](#table-of-contents)
 
 ES6 provides a new syntax to help create objects, the keyword `class`.The class syntax
 is just a syntax, and not a full-fledged class based implementation of object oriented paradigm,
@@ -1315,6 +1403,7 @@ mag.sayHi(); // Hi!
 ```
 
 ## Functional Programming
+[(Back to Top)](#table-of-contents)
 
 ### Map
 
@@ -1361,6 +1450,7 @@ const rating = watchList.map(movie => ({
 ```
 
 ## ES6 import and export
+[(Back to Top)](#table-of-contents)
 
 > The lessons in this section handle non-browser features. import won't work on a browser directly.
 > However, we can use various tools to create code out of this to make it work in browser.

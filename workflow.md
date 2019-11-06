@@ -7,7 +7,7 @@
    * Basic tooling
       > Git, NPM, Bower
    * Starting VSCode Projects
-      > setup .vscode project settings, file heiarchy (src, dist, sass etc..)
+      > setup .vscode project settings, file hierarchy (src, dist, sass etc..)
    * Initializing NPM and Bower
       > Dependencies and Scripts
 1. Research other projects that are similar
