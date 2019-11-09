@@ -1,6 +1,5 @@
 link: https://raw.githubusercontent.com/JREAM/ubuntu-cheatsheet/master/README.md
 
-
 # Ubuntu Cheatsheet
 This covers a wide assortment of quick references for the terminal/command-line. Additionally, near the bottom are more items for GUI and Troubleshooting.
 
@@ -1598,3 +1597,19 @@ Next, Login as your user who must be able to run `sudo`.
       - **CentOS** forked from RHEL (Community Edition of RHEL)
   - **Gentoo**
 - ..And many others. Debian -> Ubuntu has been the most popular.
+
+
+
+## Used Commands:
+* sudo su
+* hostname
+* xdg-open
+* echo $SHELL
+* echo $BASH_VERSION
+* cat /proc/meminfo
+* lsblk
+* sudo rm /var/crash/*
+* sudo apt autoremove
+* autokey-gtk
+* sudo chmod 777 <script file>
+* sudo chmod +x <script file>
