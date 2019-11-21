@@ -13,6 +13,7 @@
    > /etc/php/7.2/apache2/php.ini
 
    > /etc/apache2/apache2.conf
+* mysql-workbench
 * sublime-text & sublime-merge
    > Visit Sublime Text Official Site
 * virtualbox
@@ -24,6 +25,8 @@
    * `$ vagrant box list`
    * `$ vagrant box add laravel/homestead`
    > homestead.yaml
+* [wp-cli](https://wp-cli.org/)
+   > Visit WP-CLI official website
 * filezilla
 
 ### Dev Dependencies
@@ -43,8 +46,12 @@
 * neovim
 
    `$ nvim`
-* ranger
-* tree
+* file manager
+   * ranger
+   * fzf
+   * fasd
+   * tree
+   * trash-cli
 * fonts-powerline
 
 
@@ -61,16 +68,23 @@
 
 ### Customization
 * gnome-tweak-tool
-* autokey-gtk
 * ulauncher
 
    `$ sudo add-apt-repository ppa:agornostal/ulauncher`
+* autokey-gtk
+* xbindkeys
+* copyq
+* cmatrix
 
 ### Utility
-* trash-cli
+* stow
+* rsync
+   * `$ sudo rsync -avr <src> <dest>`
+   * `$ sudo rsync -aXS --progress --exclude='/*/.gvfs' /home/. /media/home/.`
 * ppa-purge
 
    `$ sudo ppa-purge ppa:<package-name>`
+* htop
 * lm-sensors
 
    `$ sensors`
@@ -80,12 +94,13 @@
    > /usr/bin/droidmote
 
 ### Media Player
+* mpv
+* mplayer
+* sxiv
 * cmus
 
    * `$ add <path>`
    * `$ clear`
-* mpv
-* mplayer
 
 ### Stream & Downloaders
 * youtube-dl
@@ -117,16 +132,18 @@
 
 
 ### Removed packages:
-* copyq
 * tmuxinator
 * gnome-shell-extensions
 
 
-## Ubuntu Software (GUI)
+## Ubuntu Software (UI)
 * chrome
 * sublime text (outdated)
 * synaptic package manager
 * visual studio code
+
+## Snap (Package Manager)
+* figma-linux
 
 ## Pre-installed:
 * wget
@@ -134,6 +151,3 @@
 * tar
 * gzip
 * nautilus
-
-
-#### ENDED @ zsh_history line 3575
