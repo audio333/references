@@ -4,7 +4,9 @@
 
 ### Web Development
 * [git](https://raw.githubusercontent.com/audio333/references/master/git.md)
+   > .gitconfig
 * apache2
+   `$ sudo /etc/init.d/apache2 restart`
 * php
 * [mysql-server](https://raw.githubusercontent.com/audio333/references/master/mysql.md)
 
@@ -13,21 +15,28 @@
    > /etc/php/7.2/apache2/php.ini
 
    > /etc/apache2/apache2.conf
-* mysql-workbench
 * sublime-text & sublime-merge
    > Visit Sublime Text Official Site
+* [wp-cli](https://wp-cli.org/)
+   > Visit WP-CLI official website
+* filezilla
+* mysql-workbench
+
+### Virtual Environment
 * virtualbox
 * [vagrant](https://raw.githubusercontent.com/audio333/references/master/vagrant.md)
+   > Visit Vagrant official site
    * `$ vagrant up`
    * `$ vagrant ssh`
    * `$ vagrant halt`
    * `$ vagrant provision`
    * `$ vagrant box list`
+* laravel homestead
+   > Visit Laravel Homestead Documentation
    * `$ vagrant box add laravel/homestead`
    > homestead.yaml
-* [wp-cli](https://wp-cli.org/)
-   > Visit WP-CLI official website
-* filezilla
+* [VVV](https://varyingvagrantvagrants.org/)
+   > Visit Varying Vagrant Vagrants official site & github repo
 
 ### Dev Dependencies
 * pug-sass
@@ -49,19 +58,16 @@
 * file manager
    * ranger
    * fzf
+      > Visit Github Repo
    * fasd
    * tree
    * trash-cli
 * fonts-powerline
 
-
 ### Package Manager
 * [nodejs](https://nodejs.org/en/) | [npm](https://raw.githubusercontent.com/audio333/references/master/npm.md)
    > Visit NodeJS Official Website
-   > .gitconfig
 * composer (php)
-
-   `$ sudo /etc/init.d/apache2 restart`
 * pip3 (python)
 * curl
 * snap
@@ -110,10 +116,15 @@
 
    ```shell
    sudo apt install python3-venv python3-pip
+
    sudo pip3 install --user mpsyoutube
    sudo pip3 install --user -U git+https://github.com/mps-youtube/mps-youtube.git
 
    sudo pip3 install --user youtube-dl --upgrade
+
+   # issue
+   # /usr/local/bin
+   # https://github.com/mps-youtube/mps-youtube/issues/641
    ```
 * youtube-viewer
 
@@ -130,11 +141,9 @@
 
    `$ ifconfig`
 
-
 ### Removed packages:
 * tmuxinator
 * gnome-shell-extensions
-
 
 ## Ubuntu Software (UI)
 * chrome
