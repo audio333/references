@@ -6,6 +6,7 @@
 * [git](https://raw.githubusercontent.com/audio333/references/master/git.md)
    > .gitconfig
 * apache2
+
    `$ sudo /etc/init.d/apache2 restart`
 * php
 * [mysql-server](https://raw.githubusercontent.com/audio333/references/master/mysql.md)
@@ -37,9 +38,26 @@
    > homestead.yaml
 * [VVV](https://varyingvagrantvagrants.org/)
    > Visit Varying Vagrant Vagrants official site & github repo
+* alecaddd/virtualhost
 
-### Dev Dependencies
+### NPM Global
+> WARNING - do not use sudo!
+> Check out https://docs.npmjs.com/resolving-eacces-permissions-errors-when-installing-packages-globally , first before installing packages
+* parcel-bundler
+* laravel-mix
+* browser-sync
 * pug-sass
+* pug-cli
+
+### Wordpress Starter Theme
+* sage
+* alecaddd/awps
+* Anomareh/PHP-Twig.tmbundle
+* robbinworks/sage-laravel-mix
+
+### Composer Package
+* timber/timber
+* roots/sage
 
 ### Terminal
 * terminator
@@ -67,6 +85,12 @@
 ### Package Manager
 * [nodejs](https://nodejs.org/en/) | [npm](https://raw.githubusercontent.com/audio333/references/master/npm.md)
    > Visit NodeJS Official Website
+* nvm (node version manager)
+  
+  * `$ use`
+  * `$ install --delete-prefix`
+  * `$ alias default`
+* yarn
 * composer (php)
 * pip3 (python)
 * curl
@@ -94,6 +118,7 @@
 * lm-sensors
 
    `$ sensors`
+* soundconverter
 
 ### Remote
 * droidmote
@@ -153,6 +178,7 @@
 
 ## Snap (Package Manager)
 * figma-linux
+* musescore --edge (guitar pro reader)
 
 ## Pre-installed:
 * wget
