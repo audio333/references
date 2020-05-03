@@ -46,7 +46,6 @@
 * parcel-bundler
 * laravel-mix
 * browser-sync
-* pug-sass
 * pug-cli
 
 ### Wordpress Starter Theme
@@ -86,7 +85,7 @@
 * [nodejs](https://nodejs.org/en/) | [npm](https://raw.githubusercontent.com/audio333/references/master/npm.md)
    > Visit NodeJS Official Website
 * nvm (node version manager)
-  
+
   * `$ use`
   * `$ install --delete-prefix`
   * `$ alias default`
@@ -97,6 +96,10 @@
 * snap
 
 ### Customization
+* i3
+* i3blocks
+* fontawesome
+    > Visit Github Repo
 * gnome-tweak-tool
 * ulauncher
 
@@ -114,11 +117,24 @@
 * ppa-purge
 
    `$ sudo ppa-purge ppa:<package-name>`
+* neofetch
 * htop
 * lm-sensors
 
    `$ sensors`
 * soundconverter
+
+### Image Tools
+* sxiv
+* feh
+* pinta
+* jpegoptim
+* optipng
+* pngquant
+* gifsicle
+
+### RSS Reader
+* newsboat
 
 ### Remote
 * droidmote
@@ -127,7 +143,6 @@
 ### Media Player
 * mpv
 * mplayer
-* sxiv
 * cmus
 
    * `$ add <path>`
@@ -169,6 +184,7 @@
 ### Removed packages:
 * tmuxinator
 * gnome-shell-extensions
+* compton
 
 ## Ubuntu Software (UI)
 * chrome
@@ -177,6 +193,7 @@
 * visual studio code
 
 ## Snap (Package Manager)
+* insomnia
 * figma-linux
 * musescore --edge (guitar pro reader)
 
